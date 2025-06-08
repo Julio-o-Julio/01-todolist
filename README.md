@@ -12,7 +12,7 @@ O projeto simula diferentes fluxos de trabalho em equipe utilizando GitHub Flow,
 - Frontend: React + Vite
 - Backend: Node.js + Express
 - ORM: Prisma
-- Banco de dados: SQLite ou PostgreSQL
+- Banco de dados: SQLite
 
 ### Como rodar o projeto na sua máquina
 
