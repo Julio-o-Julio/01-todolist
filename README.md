@@ -1,3 +1,5 @@
+# 01-todolist
+
 ### Projeto ToDo List – GCS UFMS 2025
 
 Este é um sistema de gerenciamento de tarefas que permite aos usuários criar, editar, excluir e organizar tarefas.  
@@ -15,32 +17,34 @@ O projeto simula diferentes fluxos de trabalho em equipe utilizando GitHub Flow,
 ### Como rodar o projeto na sua máquina
 
 Abra o terminal em uma pasta de sua escolha e faça o clone do repositório rodando este código:
-git clone https://github.com/Julio-o-Julio/01-todolist
+
+> git clone https://github.com/Julio-o-Julio/01-todolist
 
 Após clonar o repositório, entre na pasta do repositório rodando o comando ainda no seu terminal:
-cd ./todolist
+
+> cd ./01-todolist
 
 Agora abra mais um terminal, um para o Backend e outro para o Frontend.
 
 Após abir mais um terminal rode o seguinte comando em um dos terminais:
 
-cd ./api
+> cd ./api
 
 Agora altere o nome do arquivo ".env.exemple" para ".env" e rode os seguintes comandos no terminal:
-npm install
 
-npx prisma migrate dev --name init
+> npm install
 
-npx prisma generate
+> npx prisma generate
 
-npm run dev
+> npm run dev
 
 No outro terminal rode os seguintes comandos:
-cd ./front
 
-npm install
+> cd ./front
 
-npm run dev
+> npm install
+
+> npm run dev
 
 Para abrir o projeto no seu navegador, basta entrar nesta url: http://localhost:5173/
 
