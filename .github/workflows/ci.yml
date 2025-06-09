@@ -45,6 +45,7 @@ jobs:
           for i in {1..10}; do
             if curl --silent --head http://localhost:8080; then
               echo "✅ Backend no ar"
+              echo "✅ Teste finalizado com sucesso"
               exit 0
             fi
             echo "⏳ Aguardando backend subir..."
@@ -79,6 +80,7 @@ jobs:
           for i in {1..10}; do
             if curl --silent --head http://localhost:5173; then
               echo "✅ Frontend no ar"
+              echo "✅ Teste finalizado com sucesso"
               exit 0
             fi
             echo "⏳ Aguardando frontend subir..."
